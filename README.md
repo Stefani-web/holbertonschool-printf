@@ -1,4 +1,4 @@
-# <p align="center">Printf function in C</p>
+# <p align="center">Printf functions in C</p>
 
 <p align="center">The printf function is a C language standard library function used to display text and data to standard output, usually the computer screen. This function allows you to display character strings and variables, as well as format the output according to given specifications</p>
 
