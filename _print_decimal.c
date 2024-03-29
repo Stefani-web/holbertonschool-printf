@@ -14,6 +14,7 @@ int print_decimal(va_list args)
 	int len = 1;
 	int temp = n;
 	char *str;
+	int length = 0;
 
 	if (n < 0)
 	{
@@ -31,10 +32,15 @@ int print_decimal(va_list args)
 	if (str == NULL)
 		return (0);
 
-		sprintf(str, "%d", n);
+	sprintf(str, "%d", n);
 
-	while (len--)
+	length = len;
+	len = 0;
+	while (len < length) 
+	{
 		_putchar(str[len]);
+		len++;
+	}
 
 	free(str);
 	return (len);
