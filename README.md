@@ -82,6 +82,8 @@ This image represents the action of our function:
 
 (creation in progress)
 
+--------------------------------------------------------------------------------
+
 ## Project Authors
 #### *Stephanie Carvalho* / Github: [@Stefani-web](https://github.com/Stefani-web)
 #### *Delphine Hannon* / Github :[@Delphine-H](https://github.com/Delphine-H)
