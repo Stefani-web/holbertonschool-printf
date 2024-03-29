@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * print_decimal - Prints an integer
  * @args: va_list containing the integer to print
@@ -19,13 +18,11 @@ int print_decimal(va_list args)
 		len++;
 		temp *= -1;
 	}
-
 	while (temp > 9)
 	{
 		len++;
 		temp /= 10;
 	}
-
 	str = malloc(len * sizeof(char));
 	if (str == NULL)
 	{
@@ -44,7 +41,7 @@ int print_decimal(va_list args)
 		str[len--] = (n % 10) + '0';
 		n /= 10;
 	}
-		
+
 	while (len < length + 1)
 	{
 		_putchar(str[len]);

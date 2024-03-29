@@ -10,6 +10,7 @@
 int print_string(va_list args)
 {
 	char *s = va_arg(args, char *);
+
 	int len = 0, length = 0;
 
 	if (s == NULL)
@@ -27,6 +28,5 @@ int print_string(va_list args)
 		_putchar(s[len]);
 		len++;
 	}
-
 	return (len);
 }
