@@ -1,18 +1,18 @@
 # <p align="center">Printf function in C</p>
----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
-# <p>Project description</p>
+# <p align="center">Project description</p>
 
-This 3 person team project is part of the first year curriculum at Holberton School. For this project, we apply the following concepts: project approach, group projects, group programming and flowcharts. We will code a function similar to the printf function from the stdio.h library.
+<p align="center">This 3 person team project is part of the first year curriculum at Holberton School. For this project, we apply the following concepts: project approach, group projects, group programming and flowcharts. We will code a function similar to the printf function from the stdio.h library.</p>
 
-What we should remember from this project:
+<p align="center">What we should remember from this project:
       • How to use git as a team.
       • How to organize and share tasks between us.
       • Conflict resolution during git push.
       • Continue to learn the C language. And especially the secrets of the printf function.
-      • Share our vision of the project and contribute equitably to it.
+      • Share our vision of the project and contribute equitably to it.</p>
 
----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 # <p>Requirements</p>
 
