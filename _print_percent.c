@@ -2,7 +2,6 @@
 
 /**
  * print_percent - Prints a percent sign
- * @args: va_list containing the percent sign to print
  *
  * Return: 1 (number of chars printed)
  */
