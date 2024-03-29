@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * print_decimal - prints an integer
+ * print_decimal - Prints an integer
  * @args: va_list containing the integer to print
- *
  * Return: number of chars printed
  */
-
 int print_decimal(va_list args)
 {
 	int n = va_arg(args, int);
-	int len = 1;
+	int len = 0;
 	int temp = n;
 	char *str;
 	int length = 0;
@@ -21,27 +18,32 @@ int print_decimal(va_list args)
 		len++;
 		temp *= -1;
 	}
-
 	while (temp > 9)
 	{
 		len++;
 		temp /= 10;
 	}
-
 	str = malloc(len * sizeof(char));
 	if (str == NULL)
+	{
 		return (0);
-
-	sprintf(str, "%d", n);
-
+	}
+	if (n < 0)
+	{
+		str[0] = '-';
+		n = abs(n);
+	}
 	length = len;
-	len = 0;
-	while (len < length) 
+	while (n != 0)
+	{
+		str[len--] = (n % 10) + '0';
+		n /= 10;
+	}
+	while (len < length + 1)
 	{
 		_putchar(str[len]);
 		len++;
 	}
-
 	free(str);
-	return (len);
+	return (length);
 }
