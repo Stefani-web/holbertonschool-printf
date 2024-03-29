@@ -77,6 +77,7 @@ This image represents the action of our function:
 ![Image](https://cdn.discordapp.com/attachments/1212359396739252225/1222206852117434438/IMG_2838.jpg?ex=66155fd5&is=6602ead5&hm=c136ebf98d35c9eb98e522f4af82afce007cc9c6f025ec5edb18867499c181a2&)
 *Nabi, Delphine and Stephanie*
 
+--------------------------------------------------------------------------------
 
 # <p>Man or Help</p>
 
