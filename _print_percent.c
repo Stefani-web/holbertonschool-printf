@@ -7,7 +7,7 @@
  * Return: 1 (number of chars printed)
  */
 
-int print_percent()
+int print_percent(void)
 {
 	_putchar('%');
 	return (1);
