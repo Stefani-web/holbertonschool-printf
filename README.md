@@ -1,4 +1,5 @@
 # <p align="center">Printf function in C</p>
+---------------------------------------------------------------------------------------------------------
 
 # <p>Project description</p>
 
@@ -10,6 +11,8 @@ What we should remember from this project:
       • Conflict resolution during git push.
       • Continue to learn the C language. And especially the secrets of the printf function.
       • Share our vision of the project and contribute equitably to it.
+
+---------------------------------------------------------------------------------------------------------
 
 # <p>Requirements</p>
 
