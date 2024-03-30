@@ -8,12 +8,57 @@
 int print_decimal(va_list args)
 {
 	int n = va_arg(args, int);
-	int len = 0;
-	int temp = n;
+	int len;
 	char *str;
 	int length = 0;
 
-	if (n < 0)
+	len = length_num(n);
+
+	str = malloc(len * sizeof(char));
+	if (str == NULL)
+	{
+		return (0);
+	}
+
+	length = len;
+	len--;
+	if (n == 0)
+	{
+		str[0] = '0';
+	}
+	else
+	{
+		if (n < 0)
+		{
+			str[0] = '-';
+			n = abs(n);
+		}
+		while (n != 0)
+		{
+			str[len--] = (n % 10) + '0';
+			n /= 10;
+		}
+	}
+	while (len < length)
+	{
+		_putchar(str[len]);
+		len++;
+	}
+	free(str);
+	return (length);
+}
+
+/**
+ *length_num - count the number of digit without "-" 
+ * @number: number
+ * 
+*/
+int length_num(int number)
+{
+	int len = 1;
+	int temp = number;
+
+	if (number < 0)
 	{
 		len++;
 		temp *= -1;
@@ -23,27 +68,6 @@ int print_decimal(va_list args)
 		len++;
 		temp /= 10;
 	}
-	str = malloc(len * sizeof(char));
-	if (str == NULL)
-	{
-		return (0);
-	}
-	length = len;
-	if (n < 0)
-	{
-		_putchar('-');
-		n = abs(n);
-	}
-	while (n != 0)
-	{
-		str[len--] = (n % 10) + '0';
-		n /= 10;
-	}
-	while (len < length + 2)
-	{
-		_putchar(str[len]);
-		len++;
-	}
-	free(str);
-	return (length);
+
+	return (len);
 }

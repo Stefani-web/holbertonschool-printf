@@ -25,5 +25,6 @@ int print_string(va_list args);
 int print_char(va_list args);
 int print_percent(va_list args);
 int (*get_functions(const char *s))(va_list);
+int length_num(int number);
 
 #endif /* MAIN_H */
