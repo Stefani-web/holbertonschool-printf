@@ -1,5 +1,8 @@
 # <p align="center">Printf function in C</p>
---------------------------------------------------------------------------------
+
+<p align="center">
+    <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1223771214179340349/IMG_2974.jpg?ex=661b10c2&is=66089bc2&hm=380620d8ef6937f076705469c8165569d9050a42a3441b37795b2623c23f2901&" alt="Project printf" />
+</p>
 
 # <p align="center">Project description</p>
 
@@ -33,6 +36,7 @@ We will use our own main.c files at compilation; do not push your own main.c fil
 
 # <p>Authorized functions and macros</p>
 
+```
 - write (man 2 write)
 - malloc (man 3 malloc)
 - free (man 3 free)
@@ -40,7 +44,7 @@ We will use our own main.c files at compilation; do not push your own main.c fil
 - va_end (man 3 va_end)
 - va_copy (man 3 va_copy)
 - va_arg (man 3 va_arg)
-
+```
 # <p>Prototype</p>
 
 ```
@@ -81,13 +85,26 @@ This image represents the action of our function:
 
 # <p>Man or Help</p>
 
-(creation in progress)
+[man_3_printf](https://github.com/Stefani-web/holbertonschool-printf/blob/main/man_3_printf)
 
 --------------------------------------------------------------------------------
+
+# <p>Files</p>
+- [main.h](https://github.com/Stefani-web/holbertonschool-printf/blob/main/main.h)
+- [_get_functions.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_get_functions.c)
+- [_print_char.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_print_char.c)
+- [_print_decimal.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_print_decimal.c)
+- [_print_percent.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_print_percent.c)
+- [_print_string.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_print_string.c)
+- [_printf.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_printf.c)
+- [_putchar.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_putchar.c)
 
 ## Project Authors
 #### *Stephanie Carvalho* / Github: [@Stefani-web](https://github.com/Stefani-web)
 #### *Delphine Hannon* / Github :[@Delphine-H](https://github.com/Delphine-H)
 #### *Mohammad Nabi Guzarian* / Github: [@Nabi30](https://github.com/Nabi30)
+
+## ➤ License
+Distributed under the MIT License. See [LICENSE](https://www.holbertonschool.com/) for more information. Copyright (C) <31/03/2024> copyright: Stephanie Carvalho, Delphine Hannon, Mohammad Nabi Guzarian.
 --------------------------------------------------------------------------------
 Project carried out within the framework of the school [Holberton School](https://www.holbertonschool.com/)
