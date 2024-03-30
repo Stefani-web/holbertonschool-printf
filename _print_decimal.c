@@ -28,18 +28,18 @@ int print_decimal(va_list args)
 	{
 		return (0);
 	}
+	length = len;
 	if (n < 0)
 	{
-		str[0] = '-';
+		_putchar('-');
 		n = abs(n);
 	}
-	length = len;
 	while (n != 0)
 	{
 		str[len--] = (n % 10) + '0';
 		n /= 10;
 	}
-	while (len < length + 1)
+	while (len < length + 2)
 	{
 		_putchar(str[len]);
 		len++;
