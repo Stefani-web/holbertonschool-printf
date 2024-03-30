@@ -23,7 +23,7 @@ int _putchar(char c);
 int print_decimal(va_list args);
 int print_string(va_list args);
 int print_char(va_list args);
-int print_percent(void);
+int print_percent(va_list args);
 int (*get_functions(const char *s))(va_list);
 
 #endif /* MAIN_H */
