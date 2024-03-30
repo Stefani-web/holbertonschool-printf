@@ -8,7 +8,7 @@
 int print_decimal(va_list args)
 {
 	int n = va_arg(args, int);
-	int len = 1;
+	int len = 0;
 	int temp = n;
 	char *str;
 	int length = 0;
