@@ -29,10 +29,11 @@ int print_decimal(va_list args)
 
 	str = malloc(len * sizeof(char));
 	if (str == NULL)
+	{
 		return (0);
 
 		sprintf(str, "%d", n);
-
+	}
 	while (len--)
 		_putchar(str[len]);
 
