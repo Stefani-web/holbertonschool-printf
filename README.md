@@ -1,7 +1,7 @@
 # <p align="center">Printf function in C</p>
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1223771214179340349/IMG_2974.jpg?ex=661b10c2&is=66089bc2&hm=380620d8ef6937f076705469c8165569d9050a42a3441b37795b2623c23f2901&" alt="Project printf" />
+    <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1223786079686098985/printf.jpg?ex=661b1e9a&is=6608a99a&hm=2ff8261033aeeed1a181687b1f74ba41129b979b594a44435d835aa73f64deea&" alt="Project printf" />
 </p>
 
 # <p align="center">Project description</p>
@@ -126,12 +126,13 @@ This image represents the action of our function:
 - [_printf.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_printf.c)
 - [_putchar.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_putchar.c)
 
-## Project Authors
+## Author
 #### *Stephanie Carvalho* / Github: [@Stefani-web](https://github.com/Stefani-web)
 #### *Delphine Hannon* / Github :[@Delphine-H](https://github.com/Delphine-H)
 #### *Mohammad Nabi Guzarian* / Github: [@Nabi30](https://github.com/Nabi30)
 
 ## ➤ License
 Distributed under the MIT License. See [LICENSE](https://www.holbertonschool.com/) for more information. Copyright (C) <31/03/2024> copyright: Stephanie Carvalho, Delphine Hannon, Mohammad Nabi Guzarian.
+
 --------------------------------------------------------------------------------
 Project carried out within the framework of the school [Holberton School](https://www.holbertonschool.com/)
