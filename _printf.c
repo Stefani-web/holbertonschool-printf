@@ -33,8 +33,7 @@ int _printf(const char *format, ...)
 			{
 				if (*p + 1 == '\0')
 				{
-					count += _putchar('%');
-					count += _putchar(*p);
+					count = 0;
 				}
 				else
 				{
