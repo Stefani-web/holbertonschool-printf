@@ -33,7 +33,7 @@ int _printf(const char *format, ...)
 			{
 				if (*p + 1 == '\0')
 				{
-					count = 0;
+					count = (-1);
 				}
 				else
 				{
