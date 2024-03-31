@@ -31,11 +31,14 @@ int _printf(const char *format, ...)
 			}
 			else
 			{
-					if (p[1])
-					{
-					count += _putchar('%');
-					count += _putchar(*p);
-					}
+				if (*p + 1 == '\0')
+				{
+					count = 0;
+				}
+				else
+				{
+					return (0);
+				}
 			}
 		}
 		else

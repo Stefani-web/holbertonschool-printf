@@ -1,1 +1,3 @@
 *.out
+main_tests/main_decimal.c
+main_tests/main.c
