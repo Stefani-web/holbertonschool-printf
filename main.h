@@ -4,11 +4,12 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
+#include <limits.h>
 
 /**
  * struct checking_spec - get the function from the char
- * @format: 1st
- * @function: Scd
+ * @format: 1st member
+ * @ptr_functions: 2nd member
  *
  * Description: give function associated to the char
  */
@@ -23,7 +24,9 @@ int _putchar(char c);
 int print_decimal(va_list args);
 int print_string(va_list args);
 int print_char(va_list args);
-int print_percent();
+int print_percent(va_list args);
 int (*get_functions(const char *s))(va_list);
+int length_num(int number);
+int print_limits_int(int num);
 
 #endif /* MAIN_H */
