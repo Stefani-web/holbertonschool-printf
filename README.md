@@ -126,7 +126,7 @@ This image represents the action of our function:
 - [_printf.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_printf.c)
 - [_putchar.c](https://github.com/Stefani-web/holbertonschool-printf/blob/main/_putchar.c)
 
-## Author
+## Project Authors
 #### *Stephanie Carvalho* / Github: [@Stefani-web](https://github.com/Stefani-web)
 #### *Delphine Hannon* / Github :[@Delphine-H](https://github.com/Delphine-H)
 #### *Mohammad Nabi Guzarian* / Github: [@Nabi30](https://github.com/Nabi30)
