@@ -7,34 +7,44 @@
 
 .SH SYNOPSIS
 #include "main.h"
-br.
+.br
 #include <stdio.h>
-br.
+.br
 #include <stdarg.h>
-br.
+.br
 #include <unistd.h>
-br.
+.br
 #include <stdlib.h>
-br.
+.br
 #include <limits.h>
+.br
 
 .B int _printf(const char *format, ...);
 
 .SH DESCRIPTION
 
 .PP The _printf function allows you to display formatted text on standard output.
+.br
 .PP The first argument is a format string that specifies the format of the text to display.
+.br
 .PP The following arguments are the values to insert into the formatted text.
+.br
 
 .SH RETURN
+
 .PP The _printf function returns the number of characters printed on standard output.
+.br
 
 .SH EXAMPLES
+
 .B int n = 42;
+.br
 .B _printf("The number is %d\n", n);
+.br
 .B Prints "The number is 42" to standard output and returns 15.
 
 .SH AUTHORS
+
 .B Stephanie Carvalho <https://github.com/Stefani-web>
 .br
 .B Delphine Hannon <https://github.com/Delphine-H>
