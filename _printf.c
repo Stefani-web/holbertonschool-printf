@@ -31,10 +31,10 @@ int _printf(const char *format, ...)
 			}
 			else
 			{
-				if (p[1])
+				if (*(p + 1) == '%')
 				{
-					count += _putchar('%');
-					count += _putchar(*p);
+					_putchar('%');
+					count++;
 				}
 				else
 				{
