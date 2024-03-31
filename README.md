@@ -133,5 +133,6 @@ This image represents the action of our function:
 
 ## ➤ License
 Distributed under the MIT License. See [LICENSE](https://www.holbertonschool.com/) for more information. Copyright (C) <31/03/2024> copyright: Stephanie Carvalho, Delphine Hannon, Mohammad Nabi Guzarian.
+
 --------------------------------------------------------------------------------
 Project carried out within the framework of the school [Holberton School](https://www.holbertonschool.com/)
