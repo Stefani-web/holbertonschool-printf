@@ -18,6 +18,9 @@ int _printf(const char *format, ...)
 
 	va_start(args, format);
 
+	if (format[0] == '%' && format[1] == '\0')
+		return (0);
+
 	for (p = format; *p; p++)
 	{
 		if (*p == '%')
@@ -29,17 +32,7 @@ int _printf(const char *format, ...)
 			{
 				count += function(args);
 			}
-			else
-			{
-				if (*p + 1 == '\0')
-				{
-					count = (-1);
-				}
-				else
-				{
-					return (0);
-				}
-			}
+
 		}
 		else
 		{
