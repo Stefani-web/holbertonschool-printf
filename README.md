@@ -114,6 +114,8 @@ This image represents the action of our function:
 
 [man_3_printf](https://github.com/Stefani-web/holbertonschool-printf/blob/main/man_3_printf)
 
+![Image](https://cdn.discordapp.com/attachments/1212359396739252225/1224113811250876424/image_2.png?ex=661c4fd3&is=6609dad3&hm=2542eaed030ddb58a6c0133b218a84db86d0d3d3e8da7871bb36c4741d1c0cd1&)
+
 --------------------------------------------------------------------------------
 
 # <p>Files</p>
