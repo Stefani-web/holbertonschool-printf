@@ -8,18 +8,19 @@
 int print_decimal(va_list args)
 {
 	int n = va_arg(args, int);
-	int len;
+	int len, length = 0;
 	char *str;
-	int length = 0;
 
 	len = length_num(n);
-
+	if (n == INT_MAX || n == INT_MIN)
+	{
+		return (print_limits_int(n));
+	}
 	str = malloc(len * sizeof(char));
 	if (str == NULL)
 	{
 		return (0);
 	}
-
 	length = len;
 	len--;
 	if (n == 0)
@@ -49,9 +50,9 @@ int print_decimal(va_list args)
 }
 
 /**
- *length_num - count the number of digit without "-" 
+ *length_num - count the number of digit without "-"
  * @number: number
- * 
+ * Return: number of digits
 */
 int length_num(int number)
 {
@@ -70,4 +71,39 @@ int length_num(int number)
 	}
 
 	return (len);
+}
+
+/**
+ * print_limits_int - function that print limits of int
+ * @num: limits to print
+ * Return: number of char
+*/
+int print_limits_int(int num)
+{
+	char *string;
+	int index = 0;
+
+	if (num == INT_MIN)
+	{
+		_putchar('-');
+		string = "2147483648";
+		while (string[index] != '\0')
+		{
+			_putchar(string[index]);
+			index++;
+		}
+		return (11);
+	}
+
+	if (num == INT_MAX)
+	{
+		string = "2147483647";
+		while (string[index] != '\0')
+		{
+			_putchar(string[index]);
+			index++;
+		}
+		return (10);
+	}
+	return (0);
 }
