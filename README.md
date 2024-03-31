@@ -1,7 +1,7 @@
 # <p align="center">Printf function in C</p>
 
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1223771214179340349/IMG_2974.jpg?ex=661b10c2&is=66089bc2&hm=380620d8ef6937f076705469c8165569d9050a42a3441b37795b2623c23f2901&" alt="Project printf" />
+    <img src="https://cdn.discordapp.com/attachments/1212359396739252225/1223786079686098985/printf.jpg?ex=661b1e9a&is=6608a99a&hm=2ff8261033aeeed1a181687b1f74ba41129b979b594a44435d835aa73f64deea&" alt="Project printf" />
 </p>
 
 # <p align="center">Project description</p>
