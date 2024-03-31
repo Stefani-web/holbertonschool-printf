@@ -7,10 +7,15 @@
 
 .SH SYNOPSIS
 #include "main.h"
+br.
 #include <stdio.h>
+br.
 #include <stdarg.h>
+br.
 #include <unistd.h>
+br.
 #include <stdlib.h>
+br.
 #include <limits.h>
 
 .B int _printf(const char *format, ...);
@@ -30,11 +35,11 @@
 .B Prints "The number is 42" to standard output and returns 15.
 
 .SH AUTHORS
-Stephanie Carvalho <https://github.com/Stefani-web>
+.B Stephanie Carvalho <https://github.com/Stefani-web>
 .br
-Delphine Hannon <https://github.com/Delphine-H>
+.B Delphine Hannon <https://github.com/Delphine-H>
 .br
-Mohammad Nabi Guzarian <https://github.com/Nabi30>
+.B Mohammad Nabi Guzarian <https://github.com/Nabi30>
 
 .SH "SEE ALSO"
 printf(3), write(2), malloc(3), free(3), va_start(3), va_end(3), va_arg(3)
